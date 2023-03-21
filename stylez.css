@@ -1,0 +1,69 @@
+@font-face{
+	src:url(Quicksand.ttf);
+	font-family:qck;
+
+}
+
+body {
+	background-color : #131316;
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+	font-family:qck;
+	}
+	
+	section{
+	display: grid;
+	color:White;
+	place-items: center;
+	align-content: center;
+	min-height: 100vh;
+	padding:10px;
+	font-size:17px;
+	text-align:center;
+	background:rgba(0,0,0,0.5);
+	text-align:justify;
+	}
+	
+	.bg1 {
+	background-blend-mode:darken;
+	background:url(eroticbarb.jpg) rgba(0,0,0,0.2);
+	background-size:100% 100% cover;
+	}
+	
+	.bg2{
+	background-blend-mode:darken;
+	background:url(jasonluv.jpg) rgba(0,0,0,0.2);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+	.bg3{
+	background-blend-mode:darken;
+	background:url(dreamy.jpg) rgba(0,0,0,0.2);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+		
+	
+	}
+	
+	.hidden{
+		opacity:0;
+		transform:translateX(-100%);
+		transition:1s ease;
+		
+	}
+	
+	.show{
+		opacity:1;
+		transform:translateX(0);
+	}
+	
+@media(prefers-reduced-motion){
+	.hidden{
+		transition:none;
+	}
+
+}
