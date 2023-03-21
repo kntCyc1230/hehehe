@@ -28,7 +28,9 @@ body {
 	.bg1 {
 	background-blend-mode:darken;
 	background:url(eroticbarb.jpg) rgba(0,0,0,0.2);
-	background-size:100% 100% cover;
+	background-size:cover;
+        background-repeat:no-repeat;
+	background-position:center;
 	}
 	
 	.bg2{
